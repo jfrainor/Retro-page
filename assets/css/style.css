@@ -1,0 +1,217 @@
+
+/*Estilos generales*/
+body{
+    margin: 0;
+    font-family: 'Shantell Sans', cursive;
+}
+
+header{
+    padding: 1rem 1rem;
+}
+
+h2{
+    font-size: 2.5rem;
+
+}
+
+
+/*barra de navegación*/
+
+.navbar{
+    background-color: rgb(54, 73, 179);
+}
+
+
+.navbar-collapse{
+    align-items:center;
+    justify-content: space-between;
+    flex-direction:column;
+}
+
+
+/**/
+/*seccion principal*/
+.principal{
+    justify-content:center;
+    text-align: center;
+    margin-top:5rem;
+    margin-bottom: 0;
+    color:rgb(255, 255, 255);
+    min-height:450px;
+}
+
+.imagen-principal{
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    border:2px solid black;
+}
+
+/*seccion vestimenta*/
+
+.seccion-dos{
+    justify-content:center;
+    background-color: rgb(159, 199, 214);
+    color:rgb(0, 0, 0);
+    padding:1rem;
+    min-height:400px;
+    border-radius:2rem;
+    border-color: rgb(253, 253, 253);
+}
+
+
+.imagen-moda{
+    width: 400px;
+    height: 200px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border:1px solid black;
+}
+
+/*seccion musica*/
+
+.seccion-tres{
+    justify-content:center;
+    background-color: rgb(185, 159, 214);
+    color:rgb(0, 0, 0);
+    padding:1rem;
+    min-height:400px;
+    border-radius:2rem;
+    border-color: rgb(253, 253, 253);
+}
+
+
+.imagen-musica{
+    width: 250px;
+    height: 200px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border:1px solid black;
+}
+
+/*Seccion juego*/
+
+.seccion-cuatro{
+    justify-content:center;
+    background-color: rgb(159, 214, 175);
+    color:rgb(0, 0, 0);
+    padding:1rem;
+    min-height:400px;
+    border-radius:2rem;
+    border-color: rgb(159,214,175);
+}
+
+.imagen-juego{
+    width: 250px;
+    height: 200px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border:1px solid black;
+}
+
+/*Seccion acontecimientos*/
+
+.seccion-cinco{
+    justify-content:center;
+    background-color: rgb(163, 128, 128);
+    color:rgb(0, 0, 0);
+    padding:1rem;
+    min-height:400px;
+    border-radius:2rem;
+    border-color: rgb(253, 253, 253);
+}
+
+.imagen-final{
+    width:300px;
+    height: 250px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+
+/*tarjetas*/
+
+.card{
+    transition: box-shadow 0.3s ease;
+    color: rgb(0, 0, 0);
+    border-radius: 0.5rem;
+}
+
+/*vestimenta*/
+.v{
+    background-color: rgb(115, 178, 201);
+}
+
+.v:hover{
+    box-shadow: 2px 8px 8px rgba(4, 6, 131, 0.616);
+
+}
+
+/*Musica*/
+.m{
+    background-color: rgb(146, 110, 187);
+}
+
+.m:hover{
+    box-shadow: 2px 8px 8px rgba(91, 4, 131, 0.616);
+}
+
+/*Juegos*/
+.j{
+    background-color: rgb(101, 175, 122);
+}
+
+.j:hover{
+    box-shadow: 2px 8px 8px rgba(15, 85, 44, 0.767);
+}
+
+
+/*historia*/
+.accordion-item{
+    transition: box-shadow 0.3s ease;
+    background-color: rgb(139, 56, 56);
+    color:white
+}
+
+.accordion-button{
+    background-color: rgb(139, 56, 56);
+    color:white
+}
+
+.accordion-item:hover{
+    box-shadow: 2px 8px 8px rgba(131, 4, 25, 0.678);
+}
+
+
+
+
+/*Footer*/
+footer{
+    
+    height: 150px;
+    padding: 3rem;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.384);
+}
+
+footer section{
+    float:right;
+}
+
+footer p{
+    margin:0
+}
+
+footer a{
+    transition: color 0.3s ease ;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color:aqua
+}
+
+
+
